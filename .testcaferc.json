@@ -1,0 +1,8 @@
+{
+  "screenshots": {
+    "path": "./screenshots/",
+    "takeOnFails": true,
+    "pattern": "${DATE}_${TIME}/${FIXTURE}/${TEST}.png"
+  },
+  "concurrency": 1
+}
