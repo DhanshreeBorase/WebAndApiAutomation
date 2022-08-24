@@ -1,2 +1,2 @@
 # TestCafe
-Automate Web and API using Tstcafe
+Automate Web and API using Testcafe
