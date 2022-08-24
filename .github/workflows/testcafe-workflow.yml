@@ -12,7 +12,5 @@ jobs:
         uses: DevExpress/testcafe-action@latest
         with:
             args: "chrome tests"
-      - uses: DevExpress/testcafe-action@latest
-        with:
-          args: "chrome fixture.js -s takeOnFails=true -q -c 3"
+    
       
