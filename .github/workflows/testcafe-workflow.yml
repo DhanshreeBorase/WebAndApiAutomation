@@ -1,4 +1,4 @@
-name: Web-to-API Tests
+name: Web-and-API Tests
 on: [push]
 
 jobs:
