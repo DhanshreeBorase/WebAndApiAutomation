@@ -1,0 +1,128 @@
+{
+  "startTime": "2022-08-25T12:13:43.501Z",
+  "endTime": "2022-08-25T12:14:06.176Z",
+  "userAgents": [
+    "Chrome 104.0.5112.81 / Windows 11"
+  ],
+  "passed": 11,
+  "total": 11,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "user api tests",
+      "path": "D:\\WebAndApiAutomation\\tests\\api\\api.tests.js",
+      "meta": {
+        "module": "users"
+      },
+      "tests": [
+        {
+          "name": "get returns user with status 200",
+          "meta": {},
+          "errs": [],
+          "durationMs": 834,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "get returns status 404",
+          "meta": {},
+          "errs": [],
+          "durationMs": 237,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "post returns status 200 and user is created",
+          "meta": {},
+          "errs": [],
+          "durationMs": 359,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "post returns status 500 for invalid model",
+          "meta": {},
+          "errs": [],
+          "durationMs": 228,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "put returns status 200 and user is updated",
+          "meta": {},
+          "errs": [],
+          "durationMs": 211,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "delete returns status 404 for invalid user",
+          "meta": {},
+          "errs": [],
+          "durationMs": 477,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "web tests",
+      "path": "D:\\WebAndApiAutomation\\tests\\web\\web.tests.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "should be able to click button with dynamic id",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3136,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "should page with load delay",
+          "meta": {},
+          "errs": [],
+          "durationMs": 7509,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "buttons should not be visible on page when hidden",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2658,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "user should be able to login",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2830,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "user should not be able to login",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2929,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

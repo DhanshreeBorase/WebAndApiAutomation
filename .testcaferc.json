@@ -4,5 +4,9 @@
     "takeOnFails": true,
     "pattern": "${DATE}_${TIME}/${FIXTURE}/${TEST}.png"
   },
-  "concurrency": 1
+  "concurrency": 1,
+  "reporter": {
+    "name": "json",
+    "output": "reports/output.json"
+  }
 }
