@@ -1,0 +1,21 @@
+name: Web-and-API Tests
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    name: Run TestCafe Tests
+    runs-on: windows-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v1
+      - name: Run tests
+        uses: DevExpress/testcafe-action@latest
+        with:
+            args: "chrome tests"
+      - name: Upload results to Calliope
+        run: curl -X POST
+           -H "x-api-key:${{ secrets.API_KEY }}"
+           -H "multipart/form-data"
+           -F "file[]=@./reports/output.json"
+           "https://app.calliope.pro/api/v2/profile/${{ secrets.PROFILE_ID }}/import/testcafe?tag[]=myos&tag[]=myplatform&tag[]=mybuild"
+      
