@@ -18,7 +18,7 @@ npm run test:chrome
 ```
 
 ### In Pipeline: Follow below steps:
-1. Go to repository: [https://github.com/DhanshreeBorase/WebAndApiAutomation].
+1. Go to repository: [https://github.com/DhanshreeBorase/WebAndApiAutomation](https://github.com/DhanshreeBorase/WebAndApiAutomation).
 2. Click on Actions tab.
 3. Under `All workflows`, click on `Web-and-API tests` workflow.
 4. Click on `Run Workflow` from right pane.
@@ -29,7 +29,7 @@ npm run test:chrome
 
 ## Running the E2E tests
 
-- Test results link to __Calliope.pro__: [https://app.calliope.pro/reports/143980/public/25f43e38-cd4b-4312-bc48-6b29af27003b].
+- Test results link to __Calliope.pro__: [https://app.calliope.pro/reports/143980/public/25f43e38-cd4b-4312-bc48-6b29af27003b](https://app.calliope.pro/reports/143980/public/25f43e38-cd4b-4312-bc48-6b29af27003b).
 
 ## Improvement point and new feature for the Calliope.pro platform
 
